@@ -104,7 +104,7 @@ function addDepartment() {
             {
                 type: 'input',
                 name: 'departmentName',
-                message: 'Enter the name of the department.',
+                message: 'What is the name of the department?',
             },
         ])
         .then((answer) => {
@@ -123,17 +123,17 @@ function addRole() {
             {
                 type: 'input',
                 name: 'roleTitle',
-                message: 'Enter the title of the role.',
+                message: 'What is the name of the role?',
             },
             {
                 type: 'input',
                 name: 'roleSalary',
-                message: 'Enter the salary for the role.',
+                message: 'What is the salary of the role?',
             },
             {
                 type: 'input',
                 name: 'departmentId',
-                message: 'Enter the department ID for the role.',
+                message: 'What is the department ID of the role?',
             },
         ])
         .then((answer) => {
@@ -152,22 +152,22 @@ function addEmployee() {
             {
                 type: 'input',
                 name: 'employeeFirstName',
-                message: 'Enter the first name of the employee.',
+                message: 'What is the first name of the employee?',
             },
             {
                 type: 'input',
                 name: 'employeeLastName',
-                message: 'Enter the last name of the employee.',
+                message: 'What is the last name of the employee?',
             },
             {
                 type: 'input',
                 name: 'roleId',
-                message: 'Enter the role ID for the employee.',
+                message: 'What is the role id of the employee?',
             },
             {
                 type: 'input',
                 name: 'managerId',
-                message: 'Enter the manager ID for the employee.',
+                message: 'What is the manager id of the employee?',
             },
         ])
         .then((answer) => {
@@ -189,7 +189,7 @@ function updateEmployeeRole() {
                 {
                     type: 'list',
                     name: 'employeeId',
-                    message: 'Select the employee to update:',
+                    message: 'Select the employee to update.',
                     choices: employees.map(employee => ({
                         name: employee.employee_name,
                         value: employee.employee_id
@@ -198,7 +198,7 @@ function updateEmployeeRole() {
                 {
                     type: 'input',
                     name: 'newRoleId',
-                    message: 'Enter the new role ID for the employee:',
+                    message: 'Enter the new role ID for the employee.',
                 },
             ])
             .then((answer) => {
