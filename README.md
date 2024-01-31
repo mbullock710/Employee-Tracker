@@ -23,4 +23,8 @@
   Please reach me with any addition questions below:<br>
   https://github.com/mbullock710<br>
   mbullock710@gmail.com
-  
+
+  Video Walkthrough
+
+  [Employee Tracker.webm](https://github.com/mbullock710/Employee-Tracker/assets/148500556/37daeafc-75df-433d-b840-9f0874ec30e9)
+
